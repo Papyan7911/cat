@@ -1,0 +1,33 @@
+.sectionHassleFree {
+    background-color: #fff;
+
+    .contentHassleFree {
+        max-width: 774px;
+        padding-top: 140px;
+        padding-bottom: 132px;
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 52px;
+
+            span {
+                color: #FF6622;
+            }
+
+            @media (max-width: 550px) {
+                font-size: 32px;
+            }
+
+            @media (max-width: 375px) {
+                font-size: 26px;
+            }
+
+        }
+
+        p {
+            text-wrap: wrap;
+            margin-top: 29px;
+            color: #747983;
+        }
+    }
+}

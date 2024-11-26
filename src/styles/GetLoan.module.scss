@@ -1,0 +1,58 @@
+.getLoan {
+    background-color: #EAEEF2;
+    width: 32%;
+    height: 100%;
+    padding: 28.3px 15px;
+    border-radius: 0 12px 12px 0;
+
+    @media (max-width: 1000px) {
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .getLoanInputs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+
+        @media (max-width: 1000px) {
+            flex-direction: row;
+            justify-content: space-between;
+
+            input {
+                width: 275px;
+                height: 36px;
+            }
+        }
+
+        @media (max-width: 850px) {
+            flex-direction: column;
+        }
+    }
+
+    button {
+        width: 100%;
+        height: 48px;
+        margin-top: 38px;
+        box-shadow: 0px 6px 10px #ee430044;
+    }
+
+    p {
+        margin-top: 62px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #747983;
+
+        span {
+            color: #FF6622;
+        }
+    }
+
+    // @media (max-width: 1240px) {
+    //     .getLoan {
+    //         padding: 21.3px 15px !important;
+    //     }
+    // }
+}

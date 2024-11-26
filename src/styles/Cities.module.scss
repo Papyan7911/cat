@@ -1,0 +1,96 @@
+.cities {
+    background-color: #fff;
+
+    h2 {
+        font-size: 40px;
+
+        @media (max-width: 550px) {
+            font-size: 32px;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 26px;
+        }
+
+        span {
+            color: #FF6622;
+        }
+    }
+
+    .citiesBlocks {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+        }
+
+        .citiesList {
+            display: flex;
+            gap: 80px;
+            margin-top: 96px;
+
+            @media (max-width: 1170px) {
+                div:nth-child(3) {
+                    display: none;
+                }
+            }
+
+            ul {
+
+                li {
+                    list-style: none;
+                    line-height: 200%;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #FF6622;
+                    }
+                }
+
+                .more {
+                    color: #747983;
+                }
+            }
+        }
+
+        .secondBlock {
+            position: relative;
+
+            @media (max-width: 1000px) {
+                margin-top: 18px;
+            }
+
+            img {
+                width: 100%;
+                margin-top: 18px;
+                object-fit: cover;
+            }
+
+            div {
+                position: absolute;
+                right: 0;
+
+                @media (max-width: 1000px) {
+                    right: auto;
+                    left: 50%;
+                    width: 100%;
+                    transform: translateX(-50%);
+                }
+
+                p {
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 104%;
+                }
+
+                span {
+                    font-size: 52px;
+                    color: #FF6622;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

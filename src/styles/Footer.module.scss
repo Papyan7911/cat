@@ -1,0 +1,185 @@
+.footer {
+    background-color: #EAEEF2;
+    padding: 36px;
+
+    .footerBlocks {
+        display: flex;
+        gap: 52px;
+
+        .footerFirst {
+            display: flex;
+            gap: 44px;
+
+            >div:nth-child(1) {
+                width: 256px;
+
+                p {
+                    font-size: 12px;
+                    color: #747983;
+                    margin-top: 22px;
+                }
+            }
+
+            >div:nth-child(2) {
+                display: flex;
+                flex-direction: column;
+                row-gap: 8px;
+
+                button {
+                    background-color: #000;
+                    border-radius: 4.63px;
+                }
+            }
+        }
+
+        .footerSecond {
+            display: flex;
+            gap: 40px;
+
+            ul {
+                h5 {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    margin-bottom: 16px;
+                }
+
+                li {
+                    margin: 6.5px 0;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    font-size: 15px;
+
+                    a {
+                        text-decoration: none;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1250px) {
+        .footerBlocks {
+            flex-direction: column;
+            align-items: center;
+
+
+            .footerFirst {
+                display: flex;
+                gap: 44px;
+                justify-content: center;
+
+                >div:nth-child(1) {
+                    width: 50%;
+
+                    p {
+                        font-size: 12px;
+                        color: #747983;
+                        margin-top: 22px;
+                    }
+                }
+
+                >div:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 8px;
+
+                    button {
+                        background-color: #000;
+                        border-radius: 4.63px;
+                    }
+                }
+            }
+
+            .footerSecond {
+                gap: 80px;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+
+
+
+        .footerSecond {
+            gap: 24px !important;
+
+            ul {
+                h5 {
+                    font-size: 12px; // Adjust font size for smaller screens
+                }
+
+                li {
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+
+    @media (max-width: 668px) {
+        .footerBlocks {
+            gap: 20px;
+
+            .footerFirst {
+                // flex-direction: column;
+                gap: 24px;
+
+                >div:nth-child(1) {
+                    width: 50%; // Adjust width for smaller screens
+                    // margin: auto;
+                }
+
+                >div:nth-child(2) {
+                    row-gap: 16px;
+
+                    button {
+                        width: max-content;
+                        margin: auto;
+                    }
+                }
+            }
+
+            .footerSecond {
+                flex-direction: column;
+
+                ul {
+                    h5 {
+                        font-size: 11px;
+                    }
+
+                    li {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        padding: 24px;
+
+        .footerBlocks {
+            gap: 16px;
+
+            .footerFirst {
+                flex-direction: column;
+
+                >div:nth-child(1) {
+                    width: 70%;
+                    margin: auto;
+                    p {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .footerSecond {
+                ul li {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

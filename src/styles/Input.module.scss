@@ -1,0 +1,29 @@
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #BBC0CB;
+    border-radius: 4px;
+    padding: 10px 17px;
+    
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.icon {
+    margin-right: 10px;
+
+}
+
+.input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    background: transparent;
+    color: #747983;
+
+
+    &::placeholder {
+        color: #aaa;
+    }
+}

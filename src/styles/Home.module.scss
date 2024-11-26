@@ -1,0 +1,35 @@
+.advantagesTitle {
+    margin-top: 60px;
+
+    @media (max-width: 1000px) {
+        margin-top: 375px;
+    }
+
+    @media (max-width: 850px) {
+        margin-top: 425px;
+    }
+
+    @media (max-width: 700px) {
+        margin-top: 500px;
+    }
+
+    @media (max-width: 525px) {
+        margin-top: 600px;
+    }
+
+    @media (max-width: 440px) {
+        margin-top: 700px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        color: #747983;
+        margin-top: 16px;
+        line-height: 22px;
+        margin-bottom: 163px;
+    }
+}
