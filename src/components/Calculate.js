@@ -21,6 +21,7 @@ const Calculate = () => {
                                     height={80}
                                     alt="Money Cat"
                                     formats={['image/webp', 'image/png']}
+                                    priority={true}
                                 />
                             </div>
                             <div className={styles.calculateMessage}>

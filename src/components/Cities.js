@@ -76,6 +76,7 @@ const Cities = () => {
                             height={353.25}
                             alt="Mexico Map"
                             formats={['image/webp', 'image/png']}
+                            priority={true}
                         />
                     </div>
                 </div>

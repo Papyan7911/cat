@@ -19,7 +19,8 @@ const Advantages = () => {
                                     <Image src={item.src}
                                         width={item.width}
                                         height={item.height}
-                                        alt="" />
+                                        priority={true}
+                                        alt={item.src} />
                                 </div>
                                 <p dangerouslySetInnerHTML={{ __html: item.name }} />
                             </div>

@@ -57,6 +57,7 @@ export default function Header() {
                                     width={105}
                                     height={21}
                                     alt="Money Cat logo"
+                                    priority={true}
                                 />
                             </Link>
                         </div>
@@ -107,6 +108,7 @@ export default function Header() {
                                                 width={105}
                                                 height={21}
                                                 alt="Money Cat logo"
+                                                priority={true}
                                             />
                                         </Link>
                                     </div>
@@ -126,7 +128,13 @@ export default function Header() {
                                             menuList.map(({ icon, content }, index) => {
                                                 return <li key={index}>
                                                     <div className={styles.imageBlock}>
-                                                        <Image src={icon} alt="ICON" width={24} height={24} />
+                                                        <Image
+                                                            src={icon}
+                                                            alt="ICON"
+                                                            width={24}
+                                                            height={24}
+                                                            priority={true}
+                                                        />
                                                     </div>
                                                     <Link href="#">{content}</Link>
                                                 </li>

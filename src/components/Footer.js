@@ -29,6 +29,7 @@ const Footer = () => {
                                             width={126}
                                             height={29}
                                             formats={['image/webp', 'image/png']}
+                                            priority={true}
                                         />
                                     </div>
                                 } />
@@ -41,6 +42,7 @@ const Footer = () => {
                                             width={126}
                                             height={29}
                                             formats={['image/webp', 'image/png']}
+                                            priority={true}
                                         />
                                     </div>
                                 } />
@@ -55,6 +57,7 @@ const Footer = () => {
                                         src="/assets/svg/tel.svg"
                                         width={12}
                                         height={17}
+                                        priority={true}
                                     />
                                     +55 5005 9720
                                 </li>
@@ -63,6 +66,7 @@ const Footer = () => {
                                         src="/assets/svg/ico-clock.svg"
                                         width={18}
                                         height={18}
+                                        priority={true}
                                     />
                                     9:00 - 18:00 Lunes - Viernes
                                 </li>
@@ -71,6 +75,7 @@ const Footer = () => {
                                         src="/assets/svg/ico-envelope.svg"
                                         width={20}
                                         height={20}
+                                        priority={true}
                                     />
                                     Formulario de comentarios
                                 </li>

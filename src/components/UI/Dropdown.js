@@ -41,6 +41,7 @@ const Dropdown = ({ options, label, links }) => {
                             height={10}
                             className={`${styles.arrow} ${isOpen ? styles.open : ''}`}
                             alt="Dropdown arrow"
+                            priority={true}
                         />
                     </div>
                 }
