@@ -4,7 +4,9 @@ import Calculate from "@/components/Calculate";
 import Advantages from '@/components/Advantages'
 import styles from './../styles/Home.module.scss'
 import Cities from "@/components/Cities";
-import HassleFree from '@/components/HassleFree'
+import HassleFree from '@/components/HassleFree';
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 export default function Home() {
     return (
         <>
@@ -26,6 +28,7 @@ export default function Home() {
                 <HassleFree />
             </main>
             <Footer />
+            <SpeedInsights />
         </>
     );
 }
